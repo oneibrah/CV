@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="StyleCV.css"/>
+		<title> CV Ibrahima Konate </title> 
+
+	</head>
+	<body> 
+		<div class="aligner">
+			<p> CV konate Ibrahima </p>
+			<p> <strong> IBRAHIMA KONATE <br/> Assureur Banquier Financier/Comptable </strong> <br/> 25 ans celibataire <br/> <strong>Email:</strong> konatei100@gmail.com <br/> <strong>Tel:</strong> +223 78 21 10 40 / +223 66 33 38 71 </p>
+		<p> cliquez sur la photo pour l'a voir en taille maximum </p> <a href="konate.jpg"> <img src="konate.jpg" width="50" height="50" /> </a>
+		</div>
+		<section> 
+			<h2> COMPETENCES</h2>
+			<ul> Marketing digital <br/> Word Exel Powerpoint <br/>Sage sari <br/>  </ul>
+		</section>
+
+
+		<section>
+			<h2> EXPERIENCES</h2>
+			<ul> <li> Stage à UTM (Septemnre 2019 - Décembre 2019) </li> <br/> Mes taches: <br/>Imputation comptable <br/> Gestion des stocks <br/> Vérification des réçu et facture selon les normes comptable <br/> Réception et inscription des clients <br/> Depouillements des pièces de fonctionnement <br/>    </ul>
+		 </section>
+		<section>
+		<h2> FORMATION</h2>
+		<ul> <li> Orange Digital Kalanso (en cours)</li>  <br/> <li> Master FPA en cours (FSEG)</li> <br/> <li>Licence en Vente et Marketing 2021-2022 (Université de Mompelier Paris en ligne)</li> <br/> <li> Bts entrepreneuriat (UVM) 2020</li> <br/> <li>  Licence ABF 2019 (FSEG) </li> <br/> <li> Bac T.S.Eco 2015 </li>  <br/>  </ul>
+		<h2> CERTIFICATIONS</h2> <ul><br/> Formation en technique de commercialisation <br/> Formation en sage sari <br/> Formation en Marketing Digital <br/> Formation en initiation au developpement web </ul>  
+		 </section>
+		 <section>
+		  <div class="aligner">
+         <button type="button" onclick="cliquer();">Telecharger monCV</button> <br/> <br/>
+         <b><span style="color: blue" id="span_txt"></span></b>
+         </div>
+         </section>
+		 <script type="text/javascript">
+		 	function cliquer() {
+		 		var span = document.getElementById("span_txt");
+		 		if (span.innerHTML != "") {
+		 			span.innerHTML = "";
+
+		 		} else {
+                     span.innerHTML = "Voici mon CV !";
+		 		}
+
+		 	}
+		 	
+		 </script>
+
+	</body>
+</html>
